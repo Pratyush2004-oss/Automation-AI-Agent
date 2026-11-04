@@ -1,0 +1,39 @@
+{
+  "planHash": "58ecd1fee1e06d5c85977286f46737662c096e1cd7e7907a38fdd59865aaf06a",
+  "phase": "baseline",
+  "recordedAtUtc": "2026-11-03T08:49:55.3483373Z",
+  "retryCount": 0,
+  "resetBaseline": false,
+  "complete": true,
+  "result": {
+    "setupSucceeded": false,
+    "setupDurationMs": 2451,
+    "setupFailureOutput": "setup step 0 \u0027npm\u0027 failed (exit=1, timedOut=False)\r\nnpm WARN ERESOLVE overriding peer dependency\r\nnpm WARN While resolving: @typescript-eslint/eslint-plugin@8.72.1\r\nnpm WARN Found: typescript@7.0.2\r\nnpm WARN node_modules/typescript\r\nnpm WARN   dev typescript@\u0022~7.0.2\u0022 from the root project\r\nnpm WARN   1 more (ts-api-utils)\r\nnpm WARN \r\nnpm WARN Could not resolve dependency:\r\nnpm WARN peer typescript@\u0022\u003E=4.8.4 \u003C6.1.0\u0022 from @typescript-eslint/eslint-plugin@8.72.1\r\nnpm WARN node_modules/@typescript-eslint/eslint-plugin\r\nnpm WARN   @typescript-eslint/eslint-plugin@\u00228.72.1\u0022 from typescript-eslint@8.72.1\r\nnpm WARN   node_modules/typescript-eslint\r\nnpm WARN \r\nnpm WARN Conflicting peer dependency: typescript@6.0.3\r\nnpm WARN node_modules/typescript\r\nnpm WARN   peer typescript@\u0022\u003E=4.8.4 \u003C6.1.0\u0022 from @typescript-eslint/eslint-plugin@8.72.1\r\nnpm WARN   node_modules/@typescript-eslint/eslint-plugin\r\nnpm WARN     @typescript-eslint/eslint-plugin@\u00228.72.1\u0022 from typescript-eslint@8.72.1\r\nnpm WARN     node_modules/typescript-eslint\r\nnpm WARN ERESOLVE overriding peer dependency\r\nnpm WARN While resolving: @typescript-eslint/parser@8.72.1\r\nnpm WARN Found: typescript@7.0.2\r\nnpm WARN node_modules/typescript\r\nnpm WARN   dev typescript@\u0022~7.0.2\u0022 from the root project\r\nnpm WARN   1 more (ts-api-utils)\r\nnpm WARN \r\nnpm WARN Could not resolve dependency:\r\nnpm WARN peer typescript@\u0022\u003E=4.8.4 \u003C6.1.0\u0022 from @typescript-eslint/parser@8.72.1\r\nnpm WARN node_modules/@typescript-eslint/parser\r\nnpm WARN   peer @typescript-eslint/parser@\u0022^8.72.1\u0022 from @typescript-eslint/eslint-plugin@8.72.1\r\nnpm WARN   node_modules/@typescript-eslint/eslint-plugin\r\nnpm WARN   1 more (typescript-eslint)\r\nnpm WARN \r\nnpm WARN Conflicting peer dependency: typescript@6.0.3\r\nnpm WARN node_modules/typescript\r\nnpm WARN   peer typescript@\u0022\u003E=4.8.4 \u003C6.1.0\u0022 from @typescript-eslint/parser@8.72.1\r\nnpm WARN   node_modules/@typescript-eslint/parser\r\nnpm WARN     peer @typescript-eslint/parser@\u0022^8.72.1\u0022 from @typescript-eslint/eslint-plugin@8.72.1\r\nnpm WARN     node_modules/@typescript-eslint/eslint-plugin\r\nnpm WARN     1 more (typescript-eslint)\r\nnpm WARN ERESOLVE overriding peer dependency\r\nnpm WARN While resolving: @typescript-eslint/project-service@8.72.1\r\nnpm WARN Found: typescript@7.0.2\r\nnpm WARN node_modules/typescript\r\nnpm WARN   dev typescript@\u0022~7.0.2\u0022 from the root project\r\nnpm WARN   1 more (ts-api-utils)\r\nnpm WARN \r\nnpm WARN Could not resolve dependency:\r\nnpm WARN peer typescript@\u0022\u003E=4.8.4 \u003C6.1.0\u0022 from @typescript-eslint/project-service@8.72.1\r\nnpm WARN node_modules/@typescript-eslint/project-service\r\nnpm WARN   @typescript-eslint/project-service@\u00228.72.1\u0022 from @typescript-eslint/typescript-estree@8.72.1\r\nnpm WARN   node_modules/@typescript-eslint/typescript-estree\r\nnpm WARN \r\nnpm WARN Conflicting peer dependency: typescript@6.0.3\r\nnpm WARN node_modules/typescript\r\nnpm WARN   peer typescript@\u0022\u003E=4.8.4 \u003C6.1.0\u0022 from @typescript-eslint/project-service@8.72.1\r\nnpm WARN   node_modules/@typescript-eslint/project-service\r\nnpm WARN     @typescript-eslint/project-service@\u00228.72.1\u0022 from @typescript-eslint/typescript-estree@8.72.1\r\nnpm WARN     node_modules/@typescript-eslint/typescript-estree\r\nnpm WARN ERESOLVE overriding peer dependency\r\nnpm WARN While resolving: @typescript-eslint/tsconfig-utils@8.72.1\r\nnpm WARN Found: typescript@7.0.2\r\nnpm WARN node_modules/typescript\r\nnpm WARN   dev typescript@\u0022~7.0.2\u0022 from the root project\r\nnpm WARN   1 more (ts-api-utils)\r\nnpm WARN \r\nnpm WARN Could not resolve dependency:\r\nnpm WARN peer typescript@\u0022\u003E=4.8.4 \u003C6.1.0\u0022 from @typescript-eslint/tsconfig-utils@8.72.1\r\nnpm WARN node_modules/@typescript-eslint/tsconfig-utils\r\nnpm WARN   @typescript-eslint/tsconfig-utils@\u0022^8.72.1\u0022 from @typescript-eslint/project-service@8.72.1\r\nnpm WARN   node_modules/@typescript-eslint/project-service\r\nnpm WARN   1 more (@typescript-eslint/typescript-estree)\r\nnpm WARN \r\nnpm WARN Conflicting peer dependency: typescript@6.0.3\r\nnpm WARN node_modules/typescript\r\nnpm WARN   peer typescript@\u0022\u003E=4.8.4 \u003C6.1.0\u0022 from @typescript-eslint/tsconfig-utils@8.72.1\r\nnpm WARN   node_modules/@typescript-eslint/tsconfig-utils\r\nnpm WARN     @typescript-eslint/tsc\n\u2026[truncated]",
+    "assertions": [],
+    "executions": [
+      {
+        "source": "setup[0]",
+        "resolvedExecutable": "C:\\Program Files\\nodejs\\npm.cmd",
+        "args": [
+          "ci"
+        ],
+        "cwd": "D:\\All Programs and Projects\\AI Automation and Agent Builder\\frontend",
+        "env": {},
+        "prependPath": [],
+        "platform": "win32",
+        "nodeExecutable": "C:\\Program Files\\nodejs\\node.EXE",
+        "nodeVersion": "v22.23.2",
+        "packageManager": "npm",
+        "packageManagerExecutable": "C:\\Program Files\\nodejs\\npm.cmd",
+        "packageManagerVersion": "10.3.0",
+        "cleanup": {
+          "RootProcessId": 24028,
+          "Completed": true,
+          "ProcessesObserved": 5,
+          "ProcessesTerminated": 0,
+          "Failure": null
+        }
+      }
+    ]
+  }
+}
