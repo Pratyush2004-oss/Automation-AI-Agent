@@ -1,8 +1,10 @@
 import { configureStore } from "@reduxjs/toolkit";
 import UserReducer from "../features/auth/store/user.slice";
+import AgentReducer from "../features/dashboard/store/agent.slice";
 export const store = configureStore({
     reducer: {
-        user: UserReducer
+        user: UserReducer,
+        agent: AgentReducer
     }
 });
 

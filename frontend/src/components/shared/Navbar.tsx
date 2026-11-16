@@ -9,11 +9,11 @@ import { clearUser } from "../../features/auth/store/user.slice";
 
 const hideScrollBar = "[-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden";
 const darkPanel = "border border-white/10 bg-white/4 shadow-[0_20px_60px_rgba(0,0,0,0.35),inset_0_1px_0_rgba(255,255,255,0.15)] backdrop-blur-xl";
+const whiteBtn = "rounded-xl border-0 bg-white text-zinc-900 hover:bg-zinc-200 hover:text-zinc-900";
 const menuContent = "rounded-2xl border border-white/10 bg-[#1d2026]/95 p-1.5 text-zinc-100 shadow-2xl shadow-black/50 backdrop-blur-xl";
 const menuItem = "rounded-xl text-zinc-300 focus:bg-white focus:text-white"
 const menuSeparator = "bg-white/10";
 const iconBtn = "size-9 rounded-xl border border-white/10 bg-white/5 p-0 texxt-zinc-300 hover:bg-white/10 hover:text-white"
-const whiteBtn = "rounded-xl border-0 bg-white text-zinc-900 hover:bg-zinc-200 hover:text-zinc-900";
 
 
 const Navbar = () => {
@@ -51,7 +51,7 @@ const Navbar = () => {
 
                         <DropdownMenuSeparator className={menuSeparator} />
                         <DropdownMenuItem className={menuItem}>
-                            <Link className="flex items-center gap-2.5 hover:text-white py-2" to={"/dashboard/agents/new"}><Plus size={18} /> Create new Agent</Link>
+                            <Link className="flex items-center gap-2.5 hover:text-white py-2" to={"/dashboard/agents/create"}><Plus size={18} /> Create new Agent</Link>
                         </DropdownMenuItem>
                         <DropdownMenuSeparator className={menuSeparator} />
                         <DropdownMenuItem className={menuItem}>

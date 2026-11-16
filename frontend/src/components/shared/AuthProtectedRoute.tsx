@@ -3,7 +3,7 @@ import { useAuthSelector } from '../../features/auth/store/hooks';
 
 const AuthProtectedRoute = () => {
     const user = useAuthSelector(state => state.user.user);
-    if (user) return <Navigate to="/dashboard" />
+    if (user) return <Navigate to="/dashboard" replace />
     return (
         <Outlet />
     )

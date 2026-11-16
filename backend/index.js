@@ -3,7 +3,11 @@ import cors from "cors";
 import cookieParser from "cookie-parser";
 import { connectDB } from "./config/db.js";
 import { ENV } from "./config/ENV.js";
+
+// import routes
 import authRoute from "./routes/user.routes.js";
+import agentRouter from "./routes/agents.route.js";
+
 const app = express();
 app.use(cors({
     origin: "http://localhost:5173",
@@ -15,6 +19,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 
 app.use("/api/v1/auth", authRoute);
+app.use("/api/v1/agents", agentRouter);
 
 app.use((err, req, res, next) => {
     return res.status(500).json({ message: err.message });

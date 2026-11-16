@@ -18,7 +18,7 @@ export const isAuth = expressAsyncHandler(async (req, res, next) => {
 
         // decode the token
         try {
-            const decoded = jwt.decode(token, ENV.JWT_SECRET);
+            const decoded = jwt.verify(token, ENV.JWT_SECRET);
             if (!decoded) return res.status(401).json({ message: "Unauthorized, invalid token" });
             // get the user from database
             const user = await UserModel.findById(decoded.userId);
